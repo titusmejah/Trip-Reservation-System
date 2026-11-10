@@ -162,7 +162,7 @@ $attempts_used = min($lock['used'], LOGIN_MAX_ATTEMPTS);
 </div>
 
 <a href="index.php" class="back-link">← Back to Booking Page</a>
-<div class="credit">&copy; 2026 Demo Coaches (fictional demo) &nbsp;|&nbsp; Designed by <span>Titus</span> &nbsp;|&nbsp; <a href="tel:+254717558406" style="color:inherit;text-decoration:none;">+254717558406</a></div>
+<div class="credit">&copy; 2026 Demo Coaches &nbsp;|&nbsp; Designed by <span>Titus</span> &nbsp;|&nbsp; <a href="tel:+254717558406" style="color:inherit;text-decoration:none;">+254717558406</a></div>
 
 <script>
 function togglePassword() { const f = document.getElementById('passwordField'); f.type = f.type === 'password' ? 'text' : 'password'; }

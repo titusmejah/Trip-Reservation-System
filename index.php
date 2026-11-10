@@ -432,7 +432,7 @@ $bookedJSON = json_encode($bookedMap);
 <!-- FOOTER -->
 <footer id="contact">
   <div class="footer-bottom">
-    <div>© 2026 Demo Coaches (fictional demo)  &nbsp;|&nbsp; Designed &amp; Developed by <span class="designer">Titus</span> &nbsp;|&nbsp; <a href="tel:+254717558406" style="color:inherit;text-decoration:none;">+254717558406</a></div>
+    <div>© 2026 Demo Coaches  &nbsp;|&nbsp; Designed &amp; Developed by <span class="designer">Titus</span> &nbsp;|&nbsp; <a href="tel:+254717558406" style="color:inherit;text-decoration:none;">+254717558406</a></div>
   </div>
 </footer>
 

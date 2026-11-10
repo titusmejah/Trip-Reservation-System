@@ -927,7 +927,7 @@ $all_buses = mysqli_query($conn, "SELECT id, plate_number, bus_type FROM buses O
  </div>
 </div>
 
-<footer>&copy; 2026 Demo Coaches (fictional demo) | Admin Portal | Designed by <span>Titus</span> | <a href="tel:+254717558406" style="color:inherit;text-decoration:none;">+254717558406</a></footer>
+<footer>&copy; 2026 Demo Coaches | Admin Portal | Designed by <span>Titus</span> | <a href="tel:+254717558406" style="color:inherit;text-decoration:none;">+254717558406</a></footer>
 
 <script>
 function openFb(id, name, email, phone, subject, message, reply, replyDate) {

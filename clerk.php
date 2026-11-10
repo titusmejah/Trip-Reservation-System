@@ -152,7 +152,7 @@ $msg = isset($_GET['msg']) ? htmlspecialchars($_GET['msg']) : '';
     </div>
 </div>
 
-<footer>&copy; 2026 Demo Coaches (fictional demo) | Clerk Portal | Designed by <span>Titus</span> | <a href="tel:+254717558406" style="color:inherit;text-decoration:none;">+254717558406</a></footer>
+<footer>&copy; 2026 Demo Coaches | Clerk Portal | Designed by <span>Titus</span> | <a href="tel:+254717558406" style="color:inherit;text-decoration:none;">+254717558406</a></footer>
 
 </body>
 </html>
