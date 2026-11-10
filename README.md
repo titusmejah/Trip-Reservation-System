@@ -1,4 +1,4 @@
-# Demo Coaches: Bus Reservation System (portfolio demo)
+# Demo Coaches: Bus Reservation System
 
 A PHP + MySQL bus seat reservation system with a public booking page, a booking-clerk
 dashboard and an admin panel. **Demo Coaches is a fictional company**; no real bookings are taken.
