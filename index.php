@@ -68,7 +68,7 @@ $bookedJSON = json_encode($bookedMap);
     body{font-family:'Nunito',sans-serif;background:var(--light);color:var(--dark);overflow-x:hidden;}
 
     /* ── NAV ── */
-    nav{position:fixed;top:0;width:100%;z-index:999;background:var(--dark);display:flex;align-items:center;justify-content:space-between;padding:0 6%;height:66px;box-shadow:0 2px 24px rgba(0,0,0,.5);}
+    nav{position:sticky;top:0;width:100%;z-index:999;background:var(--dark);display:flex;align-items:center;justify-content:space-between;padding:0 6%;height:66px;box-shadow:0 2px 24px rgba(0,0,0,.5);}
     .logo-text{font-family:'Bebas Neue',sans-serif;font-size:26px;color:var(--white);letter-spacing:3px;text-decoration:none;}
     .logo-text span{color:var(--green-light);}
     nav ul{list-style:none;display:flex;gap:26px;}
@@ -76,7 +76,7 @@ $bookedJSON = json_encode($bookedMap);
     nav ul a:hover{color:var(--gold);}
 
     /* ── HERO ── */
-    .hero{min-height:70vh;background:var(--dark);display:flex;align-items:center;padding:100px 6% 60px;position:relative;overflow:hidden;}
+    .hero{min-height:70vh;background:var(--dark);display:flex;align-items:center;padding:60px 6% 60px;position:relative;overflow:hidden;}
     .hero-bg{position:absolute;inset:0;background:var(--dark);z-index:0;}
     .hero-img-right{position:absolute;right:0;top:0;bottom:0;left:40%;z-index:1;overflow:hidden;}
     .hero-img-right img{width:100%;height:100%;object-fit:cover;object-position:left center;mask-image:linear-gradient(to right, transparent 0%, rgba(0,0,0,0.4) 22%, black 50%);-webkit-mask-image:linear-gradient(to right, transparent 0%, rgba(0,0,0,0.4) 22%, black 50%);filter:brightness(.72) saturate(1.1);}
@@ -218,17 +218,11 @@ $bookedJSON = json_encode($bookedMap);
     .reveal.visible{opacity:1;transform:translateY(0);}
     @media(max-width:900px){nav ul{display:none;}.form-grid{grid-template-columns:1fr 1fr;}.footer-grid{grid-template-columns:1fr 1fr;}}
     @media(max-width:600px){.form-grid{grid-template-columns:1fr;}.hero-stats{gap:20px;}.booking-card{padding:24px 16px;}.bus-result-card{flex-direction:column;align-items:flex-start;}.seat{width:36px;height:38px;font-size:10px;}.form-2col{grid-template-columns:1fr;}}
-  
-    /* Demo banner: pinned to the very top; nav and page are pushed down by its height */
-    .demo-banner{position:fixed;top:0;left:0;right:0;height:34px;display:flex;align-items:center;justify-content:center;background:#F5C518;color:#1a1a1a;font:700 13px/1 'Nunito',Arial,sans-serif;z-index:1001;padding:0 10px;text-align:center;white-space:nowrap;overflow:hidden;}
-    body{padding-top:34px;}
-    nav{top:34px !important;}
-    @media(max-width:600px){.demo-banner{font-size:12px;}.demo-banner .long{display:none;}}
   </style>
 </head>
 <body>
 
-<div class="demo-banner"><span>DEMO ONLY &mdash; <span class="long">fictional company for portfolio purposes. </span>No real bookings.</span></div>
+<div style="background:#F5C518;color:#1a1a1a;text-align:center;padding:8px 12px;font:700 13px/1.4 Nunito,Arial,sans-serif;position:relative;z-index:1000;">DEMO ONLY. Bookings here are not real.</div>
 <!-- NAV -->
 <nav>
   <a href="#" class="logo-text"><span>DEMO</span> COACHES</a>
@@ -438,7 +432,7 @@ $bookedJSON = json_encode($bookedMap);
 <!-- FOOTER -->
 <footer id="contact">
   <div class="footer-bottom">
-    <div>© 2026 Demo Coaches (fictional demo)  &nbsp;|&nbsp; Designed &amp; Developed by <span class="designer">Mejah Titus Guthua</span> &nbsp;&bull;&nbsp; NIBS Technical College</div>
+    <div>© 2026 Demo Coaches (fictional demo)  &nbsp;|&nbsp; Designed &amp; Developed by <span class="designer">Titus</span> &nbsp;|&nbsp; <a href="tel:+254717558406" style="color:inherit;text-decoration:none;">+254717558406</a></div>
   </div>
 </footer>
 
