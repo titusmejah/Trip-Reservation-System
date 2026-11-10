@@ -280,7 +280,7 @@ $free_seats  = $total_seats - count($bookedList);
 </div>
 
 <footer>
-  &copy; 2026 Demo Coaches (fictional demo) &nbsp;|&nbsp; Clerk Seat Booking
+  &copy; 2026 Demo Coaches (fictional demo) &nbsp;|&nbsp; Clerk Seat Booking &nbsp;|&nbsp; Designed by <span style="color:var(--blue-light);font-weight:700;">Titus</span> &nbsp;|&nbsp; <a href="tel:+254717558406" style="color:inherit;text-decoration:none;">+254717558406</a>
 </footer>
 
 <script>

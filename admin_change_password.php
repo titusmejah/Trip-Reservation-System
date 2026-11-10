@@ -311,7 +311,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 </div>
 
 <footer>
-  &copy; 2026 Demo Coaches (fictional demo) &nbsp;|&nbsp; Admin Panel &nbsp;|&nbsp; Designed by <span>Mejah Titus Guthua</span>
+  &copy; 2026 Demo Coaches (fictional demo) &nbsp;|&nbsp; Admin Panel &nbsp;|&nbsp; Designed by <span>Titus</span> &nbsp;|&nbsp; <a href="tel:+254717558406" style="color:inherit;text-decoration:none;">+254717558406</a>
 </footer>
 
 <script>

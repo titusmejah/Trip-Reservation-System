@@ -120,11 +120,13 @@ $attempts_used = min($lock['used'], LOGIN_MAX_ATTEMPTS);
         .attempts-bar { display: flex; gap: 5px; margin-bottom: 16px; }
         .attempt-dot { flex: 1; height: 4px; border-radius: 2px; background: #e0e8f0; transition: background .3s; }
         .attempt-dot.used { background: #c62828; }
+        .credit { margin-top: 14px; font-size: 12px; color: rgba(255,255,255,.45); text-align: center; line-height: 1.6; }
+        .credit span { color: var(--blue-light); font-weight: 700; }
     </style>
 </head>
 <body>
 
-<div style="background:#F5C518;color:#1a1a1a;text-align:center;padding:8px 12px;font:700 13px/1.4 Nunito,Arial,sans-serif;position:relative;z-index:1000;">DEMO ONLY &mdash; fictional company for portfolio purposes. Bookings here are not real.</div>
+<div style="background:#F5C518;color:#1a1a1a;text-align:center;padding:8px 12px;font:700 13px/1.4 Nunito,Arial,sans-serif;position:relative;z-index:1000;">DEMO ONLY. Bookings here are not real.</div>
 <div class="top-logo">
     <h1><span>Demo</span> Coaches</h1>
     <p>Office Staff Portal</p>
@@ -160,6 +162,7 @@ $attempts_used = min($lock['used'], LOGIN_MAX_ATTEMPTS);
 </div>
 
 <a href="index.php" class="back-link">← Back to Booking Page</a>
+<div class="credit">&copy; 2026 Demo Coaches (fictional demo) &nbsp;|&nbsp; Designed by <span>Titus</span> &nbsp;|&nbsp; <a href="tel:+254717558406" style="color:inherit;text-decoration:none;">+254717558406</a></div>
 
 <script>
 function togglePassword() { const f = document.getElementById('passwordField'); f.type = f.type === 'password' ? 'text' : 'password'; }

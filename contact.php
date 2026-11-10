@@ -124,7 +124,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 </head>
 <body>
 
-<div style="background:#F5C518;color:#1a1a1a;text-align:center;padding:8px 12px;font:700 13px/1.4 Nunito,Arial,sans-serif;position:relative;z-index:1000;">DEMO ONLY &mdash; fictional company for portfolio purposes. Bookings here are not real.</div>
+<div style="background:#F5C518;color:#1a1a1a;text-align:center;padding:8px 12px;font:700 13px/1.4 Nunito,Arial,sans-serif;position:relative;z-index:1000;">DEMO ONLY. Bookings here are not real.</div>
 <nav>
   <a href="index.php" class="logo-text"><span>DEMO</span> COACHES</a>
   <a href="index.php" class="back-link">← Back to Booking</a>
@@ -263,7 +263,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 </div>
 
 <footer>
-  &copy; 2026 Demo Coaches (fictional demo) &nbsp;|&nbsp; Designed by <span>Mejah Titus Guthua</span> &nbsp;&bull;&nbsp; NIBS Technical College
+  &copy; 2026 Demo Coaches (fictional demo) &nbsp;|&nbsp; Designed by <span>Titus</span> &nbsp;|&nbsp; <a href="tel:+254717558406" style="color:inherit;text-decoration:none;">+254717558406</a>
 </footer>
 
 </body>

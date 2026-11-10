@@ -200,7 +200,10 @@ $all_buses = mysqli_query($conn, "SELECT id, plate_number, bus_type FROM buses O
  <style>
  *,*::before,*::after{margin:0;padding:0;box-sizing:border-box;}
  :root{--green:#1B7A3E;--green-light:#23A354;--gold:#F5C518;--dark:#0D1A11;--blue:#1a237e;--red:#c62828;}
- body{font-family:'Nunito',sans-serif;background:#f0f2f5;color:#333;}
+ body{font-family:'Nunito',sans-serif;background:#f0f2f5;color:#333;min-height:100vh;display:flex;flex-direction:column;}
+ .container{flex:1;}
+ footer{background:#0d1b6e;color:rgba(255,255,255,.3);text-align:center;padding:16px;font-size:12px;margin-top:auto;}
+ footer span{color:#42a5f5;font-weight:700;}
 
  /* HEADER */
  .header{background:var(--blue);color:white;padding:0 30px;height:66px;display:flex;justify-content:space-between;align-items:center;box-shadow:0 2px 16px rgba(0,0,0,.3);}
@@ -923,6 +926,8 @@ $all_buses = mysqli_query($conn, "SELECT id, plate_number, bus_type FROM buses O
  </div>
  </div>
 </div>
+
+<footer>&copy; 2026 Demo Coaches (fictional demo) | Admin Portal | Designed by <span>Titus</span> | <a href="tel:+254717558406" style="color:inherit;text-decoration:none;">+254717558406</a></footer>
 
 <script>
 function openFb(id, name, email, phone, subject, message, reply, replyDate) {

@@ -90,6 +90,8 @@ $dash = ($_SESSION['role'] ?? '') === 'clerk' ? 'clerk.php' : 'admin.php';
         .links { display: flex; justify-content: space-between; align-items: center; margin-top: 18px; font-size: 13px; }
         .links a, .links button { color: var(--gray); font-weight: 700; text-decoration: none; background: none; border: none; cursor: pointer; font-family: 'Nunito', sans-serif; font-size: 13px; }
         .links a:hover, .links button:hover { color: var(--blue); }
+        .credit { margin-top: 14px; font-size: 12px; color: rgba(255,255,255,.45); text-align: center; line-height: 1.6; }
+        .credit span { color: var(--blue-light); font-weight: 700; }
     </style>
 </head>
 <body>
@@ -124,5 +126,6 @@ $dash = ($_SESSION['role'] ?? '') === 'clerk' ? 'clerk.php' : 'admin.php';
         <?php endif; ?>
     </div>
 </div>
+<div class="credit">&copy; 2026 Demo Coaches (fictional demo) &nbsp;|&nbsp; Designed by <span>Titus</span> &nbsp;|&nbsp; <a href="tel:+254717558406" style="color:inherit;text-decoration:none;">+254717558406</a></div>
 </body>
 </html>
